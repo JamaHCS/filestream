@@ -1,0 +1,190 @@
+/* .container {
+  margin-top: 3em;
+} */
+
+.inverted {
+  filter: invert(100%);
+}
+
+/* pre code{
+    color: white;
+} */
+
+.code {
+  display: block;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.comment {
+  filter: opacity(60%);
+  font-style: italic;
+}
+
+span.highlighted,
+span,
+.highlighted li {
+  font-weight: 700;
+}
+.highlighted ul li {
+  font-weight: initial;
+}
+
+h1 {
+  display: block;
+  border-bottom: solid #888 1px;
+  padding-bottom: 0.4rem;
+}
+
+.js {
+  display: flex;
+  width: auto;
+  height: 50vh;
+  background-color: #f6d91b;
+  align-items: center;
+  justify-content: center;
+}
+
+.js h3 {
+  color: black;
+  font-weight: 600;
+}
+
+.separated {
+  display: block;
+  border-bottom: solid #888 1px;
+  padding-bottom: 0.4rem;
+  margin-bottom: 3em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.ordenamiento {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 2em 0;
+}
+
+.sorts {
+  margin: 0;
+}
+
+.sorts img {
+  width: 300px;
+}
+
+.algorithms {
+  width: auto;
+  max-width: 899px;
+  min-width: 300px;
+}
+
+.img-article {
+  max-width: 80%;
+  height: auto;
+}
+
+.upper {
+  padding-top: 2rem;
+  height: 10px;
+}
+
+.leftMark::before {
+  content: "";
+  border-left: 1px solid #888;
+  height: 1.8em;
+  width: 1px;
+  margin-left: 49%;
+  margin-top: 0.2em;
+}
+.leftMark {
+  display: flex;
+  position: absolute;
+  /* align-self: center;
+  justify-self: center; */
+}
+
+/* li.font-weight-bolder {
+  margin-top: 5em;
+} */
+
+.classImg {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  /* min-height: 50em; */
+  /* width: auto; */
+  /* width: 150%;
+  height: auto; */
+}
+
+.classImg img {
+  min-height: 22em;
+}
+.objects-sm {
+  display: none;
+}
+.objects {
+  display: flex;
+}
+
+.pointThree {
+  border: solid 1px #606060;
+  border-radius: 1rem;
+}
+
+.pointThree tr td {
+  border-right: solid 1px #606060;
+}
+
+.pointThree tr {
+  border-bottom: solid 1px #606060;
+}
+
+.pointThree tr td div {
+  padding: 0.5rem;
+}
+
+.viñetasright {
+  list-style: none;
+}
+
+.viñetasright li::after {
+  content: "    <---";
+}
+
+@media (max-width: 768px) {
+  .leftMark {
+    display: none;
+  }
+  .objects-sm {
+    display: flex;
+  }
+  .objects {
+    display: none;
+  }
+}
+
+@media (min-width: 1199px) {
+  .leftMark {
+    display: none;
+  }
+  .mr-xl-4 {
+    margin-left: 1em;
+  }
+}
